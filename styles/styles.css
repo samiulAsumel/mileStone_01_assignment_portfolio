@@ -133,3 +133,122 @@ body {
 .inspiration .video-container {
   margin-top: 20px;
 }
+
+/* Current Target Styles */
+.current-target {
+  text-align: center;
+  padding: 50px 0;
+  max-width: 65%;
+  margin: 0 auto;
+}
+
+.current-target .cards {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.current-target .card {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.current-target .card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.current-target .card a {
+  display: block;
+  margin-top: 10px;
+  color: #7025e1;
+  text-decoration: none;
+  transition: color 0.5s ease;
+  font-size: 21px;
+}
+
+.current-target .card a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Support Styles */
+.support {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.support h2 {
+  font-size: 40px;
+}
+
+.support p {
+  font-size: 24px;
+}
+
+.support-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.support-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  font-size: 25px;
+  font-family: "Playwrite GB S", cursive;
+}
+
+.support-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: 25px;
+  transition: background-color 0.5s ease;
+  font-family: "Playwrite GB S", cursive;
+}
+
+.support-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #16b435;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .left {
+  margin-left: 20px;
+}
+
+footer .left p {
+  font-size: 19px;
+  color: black;
+}
+
+footer .right a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+footer .right a:hover {
+  text-decoration: underline;
+}
+
+address a {
+  text-decoration: none;
+}
