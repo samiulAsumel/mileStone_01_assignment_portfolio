@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap");
+
+/* Body Styles */
+body {
+  font-family: "Playwrite GB S", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+/* Banner Styles */
+.banner {
+  background-image: url("../assets/banner.png");
+  background: linear-gradient(180deg, rgb(22, 65, 137), rgb(141, 22, 141));
+  background-size: cover;
+  max-width: 70%;
+  max-height: 15%;
+  background-position: center;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0 auto;
+  color: white;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.banner h1 {
+  font-size: 48px;
+}
+
+.banner p {
+  font-size: 30px;
+}
+
+.banner img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+  opacity: 55%;
+}
+
+.banner .btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 35px;
+  border-radius: 5px;
+  border-style: none;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.banner .btn:hover {
+  background-color: #0056b3;
+}
