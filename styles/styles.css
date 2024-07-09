@@ -55,3 +55,81 @@ body {
 .banner .btn:hover {
   background-color: #0056b3;
 }
+
+/* Why Web Development Styles */
+.why-web-development {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  padding: 50px 0;
+}
+
+.why-web-development .card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #405e7d;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(48, 89, 202, 0.1);
+}
+
+.why-web-development .card img {
+  max-width: 150px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.why-web-development .card .text {
+  max-width: 300px;
+}
+
+.why-web-development .card .text h2 {
+  margin-top: 0;
+  color: chartreuse;
+}
+
+.why-web-development .card .text p {
+  text-align: justify;
+  height: 250px;
+}
+
+.why-web-development .card .text .btn {
+  display: inline-block;
+  background-color: #0c784f;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 10px;
+  border-radius: 5px;
+  border-style: none;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.why-web-development .card .text .btn:hover {
+  background-color: #00674d;
+}
+
+/* Inspiration Styles */
+.inspiration {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.inspiration h2 {
+  font-size: 48px;
+  color: #405e7d;
+}
+
+.inspiration p {
+  font-size: 24px;
+  color: #405e7d;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.inspiration .video-container {
+  margin-top: 20px;
+}
